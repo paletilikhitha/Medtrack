@@ -1,5 +1,7 @@
 from flask import Flask, render_template, request, flash, redirect, url_for, session, g
 from datetime import timedelta, datetime
+from dotenv import load_dotenv
+load_dotenv()
 import json
 import os
 import uuid
